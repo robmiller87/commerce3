@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 export const metadata: Metadata = {
   title: 'Agent Store Academy - The Shopify Era Tech Stack is Dead',
   description: 'Open source tools + AI Agents. Own everything. Pay almost nothing. Join the founding cohort of 100 builders.',
+  other: {
+    'facebook-domain-verification': 'r512vk2vj9sn2dqhmurrcx6zlkvc2f',
+  },
   openGraph: {
     title: 'The Shopify Era Tech Stack is Dead',
     description: 'Open source tools + AI Agents. Own everything. Pay almost nothing. Join the founding cohort of 100 builders.',
