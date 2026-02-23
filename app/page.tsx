@@ -3,6 +3,7 @@ import { DeadStackSection } from "@/components/asa/dead-stack-section"
 import { NewStackSection } from "@/components/asa/new-stack-section"
 import { SocialProofSection } from "@/components/asa/social-proof-section"
 import { QualifierSection } from "@/components/asa/qualifier-section"
+import { QuoteSection } from "@/components/asa/quote-section"
 import { CTASection } from "@/components/asa/cta-section"
 import { Footer } from "@/components/asa/footer"
 
@@ -23,6 +24,7 @@ export default function LandingPage() {
         <NewStackSection />
         <SocialProofSection />
         <QualifierSection />
+        <QuoteSection />
         <CTASection />
       </main>
       <Footer />
