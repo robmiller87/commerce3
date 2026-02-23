@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="96" fill="#111111"/>
+  
+  <!-- Bot head/body -->
+  <rect x="96" y="160" width="320" height="224" rx="48" stroke="#4ADE80" stroke-width="24" fill="none"/>
+  
+  <!-- Left eye -->
+  <circle cx="176" cy="272" r="32" fill="#4ADE80"/>
+  
+  <!-- Right eye -->
+  <circle cx="336" cy="272" r="32" fill="#4ADE80"/>
+  
+  <!-- Mouth -->
+  <rect x="208" y="320" width="96" height="32" rx="16" fill="#4ADE80"/>
+  
+  <!-- Antenna -->
+  <rect x="224" y="96" width="64" height="64" rx="16" fill="#4ADE80"/>
+</svg>
