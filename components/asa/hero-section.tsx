@@ -1,11 +1,29 @@
 "use client"
 
-import { ArrowRight, Bot } from "lucide-react"
+import { ArrowRight, Bot, Cpu } from "lucide-react"
 import { motion } from "framer-motion"
 
 export function HeroSection() {
   return (
-    <section className="flex flex-col items-center justify-center px-6 pt-32 pb-24 md:pt-44 md:pb-32 text-center">
+    <section className="flex flex-col items-center justify-center px-6 pt-32 pb-24 md:pt-44 md:pb-32 text-center relative">
+      {/* Agent Proof Badge - Top Right */}
+      <motion.a
+        href="https://agent-george.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
+        className="absolute top-4 right-4 md:top-8 md:right-8 flex items-center gap-2 px-4 py-2 rounded-full border border-primary/50 bg-primary/10 hover:bg-primary/20 transition-colors group"
+      >
+        <span className="relative flex h-2 w-2">
+          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
+          <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
+        </span>
+        <span className="text-sm font-medium text-primary">Built by Agent George</span>
+        <Cpu className="h-4 w-4 text-primary group-hover:rotate-12 transition-transform" />
+      </motion.a>
+
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
