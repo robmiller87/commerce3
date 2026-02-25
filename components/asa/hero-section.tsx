@@ -40,7 +40,7 @@ export function HeroSection() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.3, ease: [0.33, 1, 0.68, 1] }}
-        className="mt-10"
+        className="mt-10 flex flex-col items-center gap-4"
       >
         <a
           href="#apply"
@@ -49,6 +49,12 @@ export function HeroSection() {
           See If You Qualify
           <ArrowRight className="h-4 w-4" />
         </a>
+        <p className="text-sm text-muted-foreground">
+          <span className="line-through">$250/yr</span>
+          {" → "}
+          <span className="font-semibold text-foreground">$50</span>
+          {" · Founding cohort (100 spots)"}
+        </p>
       </motion.div>
     </section>
   )

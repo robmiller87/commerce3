@@ -40,9 +40,20 @@ export function CTASection() {
           Limited availability
         </p>
 
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground tracking-tight text-balance mb-10">
+        <h2 className="text-3xl md:text-4xl font-bold text-foreground tracking-tight text-balance mb-4">
           100 founding member spots.
         </h2>
+
+        <div className="mb-10">
+          <p className="text-2xl md:text-3xl font-bold text-foreground">
+            <span className="line-through text-muted-foreground text-xl md:text-2xl">$250/year</span>
+            {" → "}
+            <span className="text-primary">$50 lifetime access</span>
+          </p>
+          <p className="text-sm text-muted-foreground mt-2">
+            Founding cohort pricing · 87 spots remaining
+          </p>
+        </div>
 
         <iframe
           data-tally-src="https://tally.so/embed/7RW5KZ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
