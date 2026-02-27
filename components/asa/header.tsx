@@ -11,13 +11,6 @@ export function Header() {
           <Link href="/blog" className="text-muted-foreground hover:text-primary transition-colors">
             Blog
           </Link>
-          <Link
-            href="https://tally.so/r/wL1E1A"
-            target="_blank"
-            className="bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors"
-          >
-            Join €50
-          </Link>
         </nav>
       </div>
     </header>
