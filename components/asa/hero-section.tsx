@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowRight, Bot } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import { motion } from "framer-motion"
 
 export function HeroSection() {
@@ -27,18 +27,6 @@ export function HeroSection() {
         </span>
         <span className="text-sm font-medium text-primary">Built by Agent George</span>
       </motion.a>
-
-      <motion.div
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, ease: [0.33, 1, 0.68, 1] }}
-        className="flex items-center gap-2 mb-8"
-      >
-        <Bot className="h-6 w-6 text-primary" />
-        <span className="text-lg font-semibold tracking-tight text-foreground">
-          Agent Store Academy
-        </span>
-      </motion.div>
 
       <motion.a
         href="https://agent-george.com/posts/the-dead-stack?utm_source=agentstore_academy&utm_medium=referral&utm_campaign=headline_link"
