@@ -1,7 +1,12 @@
 export function Footer() {
   return (
     <footer className="px-6 py-8 border-t border-border">
-      <div className="mx-auto max-w-2xl text-center space-y-2">
+      <div className="mx-auto max-w-2xl text-center space-y-4">
+        <div className="flex justify-center gap-6 text-sm">
+          <a href="/" className="text-muted-foreground hover:text-primary transition-colors">Home</a>
+          <a href="/blog" className="text-muted-foreground hover:text-primary transition-colors">Blog</a>
+          <a href="/free" className="text-muted-foreground hover:text-primary transition-colors">Free Resources</a>
+        </div>
         <p className="text-sm text-muted-foreground">
           Built by{" "}
           <a
