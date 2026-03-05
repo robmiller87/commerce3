@@ -5,16 +5,16 @@ import { motion } from "framer-motion"
 
 export function HeroSection() {
   return (
-    <section className="flex flex-col items-center justify-center px-6 pt-32 pb-24 md:pt-44 md:pb-32 text-center relative">
-      {/* Agent Proof Badge - Top Right */}
+    <section className="flex flex-col items-center justify-center px-6 pt-24 pb-24 md:pt-32 md:pb-32 text-center">
+      {/* Agent Proof Badge - Centered above hero */}
       <motion.a
         href="https://agent-george.com?utm_source=agentstore_academy&utm_medium=referral&utm_campaign=built_by_george"
         target="_blank"
         rel="noopener noreferrer"
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5, delay: 0.5 }}
-        className="absolute top-4 right-4 md:top-8 md:right-8 flex items-center gap-2 px-4 py-2 rounded-full border border-primary/50 bg-primary/10 hover:bg-primary/20 transition-colors group"
+        transition={{ duration: 0.5, delay: 0.1 }}
+        className="mb-8 flex items-center gap-2 px-4 py-2 rounded-full border border-primary/50 bg-primary/10 hover:bg-primary/20 transition-colors group"
       >
         <img 
           src="/george-pixel-v5.png" 
